@@ -19,4 +19,10 @@ Development of a predictive system for analyzing key metrics of quotation sessio
 ## Metrics
 - I use ROC-AUC and PR-AUC for predict cluster (ROC-AUC = 0.85, PR-AUC = 0.62)
 - I use MAE for predict recession and participant of quotation session (MAE = 25.46 on recession and MAE = 2.16 on participant of quotation session)
-
+## Features Importants
+### Classifier of status
+![img](https://raw.githubusercontent.com/ditengm/TenderHack/main/img/feature_importance_linreg.png)
+### Regression recession
+![img](https://raw.githubusercontent.com/ditengm/TenderHack/main/img/feature_important_linreg_1.png)
+### Regression of participant
+![img](https://raw.githubusercontent.com/ditengm/TenderHack/main/img/feature_important_clf.png)
